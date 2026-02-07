@@ -1,30 +1,65 @@
 import React from "react";
+import left_btn1 from "../img/btn/left-btn.svg";
+import right_btn1 from "../img/btn//right-btn.svg";
+import img_carusel1 from "../img/serial/Rectangle 1.png";
+import img_carusel2 from "../img/serial/Rectangle 2.png";
+import img_carusel3 from "../img/serial/Rectangle 3.png";
+import img_carusel4 from "../img/serial/Rectangle 4.png";
+import img_carusel5 from "../img/serial/Rectangle 5.png";
+import style from "./myButton.module.css";
 
 const Sliders = () => {
+  const carusel_slaider = {
+    display: "flex",
+    gap: "50px",
+  };
   return (
-    <div>
-      <div>
-        <div className="">POPULAR THIS WEEK</div>
-        <div className="scroll_btn">
-          <button className="left_btn"><img src="../img/btn/left-btn.svg" alt="left" /></button>
-          <button className="right_btn"><img src="../img/btn//right-btn.svg" alt="right" /></button>
+    <div style={{ width: "50%", position: "relative" }}>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div
+          style={{
+            fontSize: "22px",
+            fontWeight: "800",
+            marginTop: "54px",
+            marginBottom: "32px",
+            color: 'rgba(255, 255, 255, 1)',
+          }}
+        >
+          POPULAR THIS WEEK
+        </div>
+        <div
+          style={{
+            display: "flex",
+            gap: "20px",
+            position: "absolute",
+            top: "16%",
+            right: "0%",
+          }}
+        >
+          <button className={style.btn_carusel}>
+            <img src={left_btn1} alt="left" />
+          </button>
+          <button className={style.btn_carusel}>
+            <img src={right_btn1} alt="right" />
+          </button>
         </div>
       </div>
-      <div className="scroll_series">
+
+      <div style={carusel_slaider}>
         <a href="#">
-          <img src="../img/serial/Rectangle 1.png" alt="Rectangle" />
+          <img src={img_carusel1} alt="Rectangle1" />
         </a>
         <a href="#">
-          <img src="../img/serial/Rectangle 2.png" alt="Rectangle" />
+          <img src={img_carusel2} alt="Rectangle2" />
         </a>
         <a href="#">
-          <img src="../img/serial/Rectangle 3.png" alt="Rectangle" />
+          <img src={img_carusel3} alt="Rectangle3" />
         </a>
         <a href="#">
-          <img src="../img/serial/Rectangle 4.png" alt="Rectangle" />
+          <img src={img_carusel4} alt="Rectangle4" />
         </a>
         <a href="#">
-          <img src="../img/serial/Rectangle 5.png" alt="Rectangle" />
+          <img src={img_carusel5} alt="Rectangle5" />
         </a>
       </div>
     </div>

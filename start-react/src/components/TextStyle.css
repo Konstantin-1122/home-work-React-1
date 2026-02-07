@@ -1,0 +1,15 @@
+h1{
+    font-weight: 800;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+}
+h4{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+span{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(167, 166, 166, 1);
+}

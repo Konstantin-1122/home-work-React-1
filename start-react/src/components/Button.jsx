@@ -1,13 +1,19 @@
 import React from "react";
+import player from "../img/btn/play.svg" ;
+import style from "./myButton.module.css";
+
+
+
+
 
 const Button = () => {
   return (
-    <div>
-      <button>
+    <div className={style.custom}>
+         <button className={style.btn_sream}>
         STREAM NOW
-        <img src="../img/btn/play.svg" alt="" />
+        <img src={player} alt="player" />
       </button>
-      <button>ALL EPISODES</button>
+      <button className={style.btn_all}>ALL EPISODES</button>
     </div>
   );
 };

@@ -1,0 +1,60 @@
+.btn_sream {
+  width: 272px;
+  height: 64px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(212, 13, 31, 1);
+  font-size: 22px;
+}
+.btn_sream:hover{
+    background-color:rgb(52, 8, 11);
+}
+
+
+.btn_all {
+      width: 272px;
+  height: 64px;
+  border-radius: 10px;
+  /*border:1px rgba(255, 255, 255, 1);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  font-size: 22px;
+}
+.btn_all:hover{
+    background-color:rgb(52, 8, 11);
+}
+
+
+.btn_carusel{
+    width: 32.3px;
+    height: 32.3px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:1px  solid rgba(167, 166, 166, 1);
+    color: rgba(167, 166, 166, 1);
+        border: 1px solid wheat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btn_carusel:hover{
+    border:1px  solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.custom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+
+}
