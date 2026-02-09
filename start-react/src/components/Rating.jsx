@@ -1,69 +1,10 @@
 import React from "react";
-import star from "../img/RatingStar/Vector.png";
+import Raiteng from "./raiteng";
 
 const Rating = () => {
   return (
-    <div style={{ display: "flex" }}>
-      <div
-        style={{
-          Width: "27.61px",
-          Height: "26.33px",
-          display: "flex",
-          width: "212px",
-          height: "34px",
-          marginBottom: "53px",
-        }}
-      >
-        <img style={{ star }}></img>
-      </div>
-      <div
-        style={{
-          Width: "27.61px",
-          Height: "26.33px",
-          display: "flex",
-          width: "212px",
-          height: "34px",
-          marginBottom: "53px",
-        }}
-      >
-        <img style={{ star }}></img>
-      </div>
-      <div
-        style={{
-          Width: "27.61px",
-          Height: "26.33px",
-          display: "flex",
-          width: "212px",
-          height: "34px",
-          marginBottom: "53px",
-        }}
-      >
-        <img style={{ star }}></img>
-      </div>
-      <div
-        style={{
-          Width: "27.61px",
-          Height: "26.33px",
-          display: "flex",
-          width: "212px",
-          height: "34px",
-          marginBottom: "53px",
-        }}
-      >
-        <img style={{ star }}></img>
-      </div>
-      <div
-        style={{
-          Width: "27.61px",
-          Height: "26.33px",
-          display: "flex",
-          width: "212px",
-          height: "34px",
-          marginBottom: "53px",
-        }}
-      >
-        <img style={{ star }}></img>
-      </div>
+    <div>
+      <Raiteng stars={3} />
     </div>
   );
 };

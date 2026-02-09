@@ -1,7 +1,7 @@
 import React from "react";
 import NETFLIX from "../img/logo/netflix.svg";
 import lupa from "../img/logo/POISC.png";
-import avatar from "../img/logo/AVATAR.png";
+import HeaderNav from "./HeaderNav";
 
 const Header = () => {
    const ulStyle = {
@@ -39,14 +39,12 @@ const Header = () => {
             color: 'rgba(200, 200, 200, 1)',
             }}>Friday July 8th</a>
         </li>
-       
         <li style={right}>
           <a href="#">
             <img src={lupa} alt="search" />
           </a>
-          <a href="#">
-            <img src={avatar} alt="avatar" width="74" height="74" />
-          </a>
+
+          <HeaderNav isLogin={false} />
         </li>
       </ul>
     </header>
