@@ -57,3 +57,32 @@ const Description = () => {
 };
 
 export default Description;
+/* const info = [
+  { label: "", value: "2019" },
+  { label: "DIRECTOR:", value: "Shawn Levy" },
+  { label: "SEASONS:", value: "3 (5 Episodes)" }
+];
+
+const infoEl = info.map((item, index) => {
+  return (
+    <div
+      key={index}
+      style={{
+        borderLeft: index === 0 ? "none" : "2px solid rgba(255, 255, 255, 1)",
+        padding: "0 20px"
+      }}
+    >
+      <h4>
+        {item.label && (
+          <>
+            {item.label} <span>{item.value}</span>
+          </>
+        )}
+        {!item.label && item.value}
+      </h4>
+    </div>
+  );
+});
+   
+
+*/
