@@ -1,7 +1,8 @@
 import React from "react";
 import NETFLIX from "../img/logo/netflix.svg";
-import lupa from "../img/logo/POISC.png";
+//import lupa from "../img/logo/POISC.png";
 import HeaderNav from "./HeaderNav";
+import Search from "./search";
 
 const Header = () => {
    const ulStyle = {
@@ -41,7 +42,7 @@ const Header = () => {
         </li>
         <li style={right}>
           <a href="#">
-            <img src={lupa} alt="search" />
+         <Search/>
           </a>
 
           <HeaderNav isLogin={false} />
