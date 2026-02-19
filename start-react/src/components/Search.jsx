@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";
 import lupa from "../img/logo/POISC.png";
 
 function Search() {
@@ -96,5 +96,5 @@ function Search() {
   );
 }
 
-export default Search;
-// я не знаю как выполнить дз, я не понял что надо сделать 
+export default Search;*/
+
