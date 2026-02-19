@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import NETFLIX from "../img/logo/netflix.svg";
-//import lupa from "../img/logo/POISC.png";
 import HeaderNav from "./HeaderNav";
 import Search from "./search";
 
@@ -24,6 +23,8 @@ const Header = () => {
     alignItems: "center",
     gap: "20px",
   };
+     
+
 
   return (
     <header>
@@ -42,6 +43,8 @@ const Header = () => {
         </li>
         <li style={right}>
           <a href="#">
+
+
          <Search/>
           </a>
 
