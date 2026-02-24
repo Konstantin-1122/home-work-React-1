@@ -3,6 +3,7 @@ import NETFLIX from "../img/logo/netflix.svg";
 import HeaderNav from "./HeaderNav";
 //import Search from "./search";
 import lupa from "../img/logo/POISC.png";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const ulStyle = {
@@ -70,9 +71,9 @@ const Header = () => {
       <ul style={ulStyle}>
       
         <li style={left}>
-          <a href="#">
+          <Link to='/'>
             <img src={NETFLIX} alt="NETFLIX" width="156" height="48" />
-          </a>
+          </Link>
           <a
             href="#"
             style={{
@@ -86,6 +87,13 @@ const Header = () => {
             Friday July 8th
           </a>
         </li>
+        
+        <div className="headermiddle" style={{display:'flex', alignItems:'center',gap:'8px'}}>
+     <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/about'>About</Link>
+     <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/price'>Price</Link>
+     <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/contact'>Contact</Link>
+        </div>
+        
 
      
         <li style={right}>

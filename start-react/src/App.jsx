@@ -1,34 +1,38 @@
 
-import Footer from "./components/Footer";
-import Header from "./components/header";
-import Genre from "./components/Genre";
-import Description from "./components/Description";
-import Button from "./components/Button";
-import Sliders from "./components/Sliders";
-import Rating from "./components/Rating";
-import './index.css'
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About";
+import Price from "./components/Price";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 
- 
-
-
-function App() {
-
+{
+  /*function Home() {
   return (
     <>
-    <div className='conteiner'>
-      <Header></Header>
-      <div className="small-wrapper">
-        <Genre></Genre>
-        <Description></Description>
-        <Rating></Rating>
-        <Button></Button>
-        <Sliders></Sliders>
-      </div>
-
-      <Footer></Footer>
-      </div>
+      <Header />
+      <Genre />
+      <Description />
+      <Rating />
+      <Button />
+      <Sliders />
     </>
+  );
+}*/
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Price" element={<Price />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
