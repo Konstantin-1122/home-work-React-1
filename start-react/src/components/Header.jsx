@@ -71,9 +71,9 @@ const Header = () => {
       <ul style={ulStyle}>
       
         <li style={left}>
-          <Link to='/'>
+          <a >
             <img src={NETFLIX} alt="NETFLIX" width="156" height="48" />
-          </Link>
+          </a>
           <a
             href="#"
             style={{
@@ -88,12 +88,12 @@ const Header = () => {
           </a>
         </li>
         
-        <div className="headermiddle" style={{display:'flex', alignItems:'center',gap:'8px'}}>
+       {/* <div className="headermiddle" style={{display:'flex', alignItems:'center',gap:'8px'}}>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/about'>About</Link>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/price'>Price</Link>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/contact'>Contact</Link>
-        </div>
-        
+        </div>*/}
+
 
      
         <li style={right}>
