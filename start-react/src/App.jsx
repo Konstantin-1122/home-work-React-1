@@ -1,4 +1,5 @@
- import Footer from "./components/Footer";
+
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Genre from "./components/Genre";
 import Description from "./components/Description";
@@ -19,9 +20,9 @@ import Rating from "./components/Rating";
 
 import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//import About from "./components/About";
-//import Price from "./components/Price";
-//import Contact from "./components/Contact";
+import About from "./components/About";
+import Price from "./components/Price";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
 
 {
@@ -39,11 +40,11 @@ import Home from "./components/Home";
 }*/
 }
 
-function App() {
+ function App() {
   return (
  <>
-   <Home></Home>
-   {/* <Router>
+   <Home></Home> 
+    {/*<Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
@@ -53,7 +54,7 @@ function App() {
     </Router>
 
          
-         <div className="container">
+        <div className="container">
       <div className="small-wrapper">
         <Header />
         <Genre />

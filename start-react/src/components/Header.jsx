@@ -88,7 +88,7 @@ const Header = () => {
           </a>
         </li>
         
-       {/* <div className="headermiddle" style={{display:'flex', alignItems:'center',gap:'8px'}}>
+        {/* <div className="headermiddle" style={{display:'flex', alignItems:'center',gap:'8px'}}>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/about'>About</Link>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/price'>Price</Link>
      <Link className="me-3 py-2 link-body-emphasis text-white text-decoration-none" to='/contact'>Contact</Link>
